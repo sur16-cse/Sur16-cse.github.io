@@ -7,9 +7,9 @@
     box-sizing: border-box;
 }
 
-body::-webkit-scrollbar { 
-    display: none; 
-}
+/* body::-webkit-scrollbar {
+    display: none;
+} */
 
 
 /* .bars{
@@ -286,7 +286,7 @@ section:nth-child(2n+1){
     height:0.5rem;
     background-color: #e608fa;
     z-index: 1;
-    
+
 }
 
 .timeline-box:nth-child(2n)::after{
@@ -299,7 +299,7 @@ section:nth-child(2n+1){
     height:0.5rem;
     background-color: #e608fa;
     z-index: 1;
-    
+
 }
 
 .timeline-box:nth-child(2n){
@@ -339,7 +339,7 @@ section:nth-child(2n+1){
     flex-direction: column;
 } */
 
-.ab,.bc,.cd{ 
+.ab,.bc,.cd{
  font-family: monospace;
  font-weight: bold;
 }
@@ -548,7 +548,7 @@ abbr{
     top: calc(60% - 65px);
     transition:0.5s ease-in-out;
     background: #ff0057;
-   
+
 }
 
 .container .card .imgbox:before{
@@ -705,7 +705,7 @@ abbr{
     list-style: none;
     padding-left: 0px;
     margin:1.1rem;
-    
+
 }
 .horizontal-list li{
     display: inline-block;
@@ -750,17 +750,17 @@ abbr{
 }
 
 @media only screen and (max-width: 572px) {
-    
+
     .timeline-box {
         width: 100%;
         left: 10% !important;
         /* padding:3.5% ; */
         margin-bottom:15px;
     }
-    
+
     nav p a{
         display: none;
-    } 
+    }
 
     #surbhi{
         margin: 0%;
