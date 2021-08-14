@@ -75,6 +75,7 @@
     z-index: 2;
     padding-left: 2%;
     padding-right:2%;
+    margin: 0%;
 }
 
 .nav-left{
@@ -176,6 +177,7 @@ section:nth-child(2n+1){
     background-repeat: no-repeat;
     align-items: center;
     opacity: 1.0;
+    background-color: none;
 }
 
 .name h1{
@@ -187,6 +189,9 @@ section:nth-child(2n+1){
     margin-top: 2.3rem;
 }
 
+#hero{
+    background-color: none;
+}
 .hero-about {
     display:flex;
     justify-content: center;
@@ -217,7 +222,7 @@ section:nth-child(2n+1){
     height:13rem;
     width:13rem;
     margin:auto;
-    margin-top: -16vh;
+    margin-top: -17vh;
 }
 
 #my_image img{
@@ -636,6 +641,10 @@ abbr{
 }
 
 /*contact*/
+
+#contact{
+    min-height: 60vh;
+}
 .wrapper{
 
     display: flex;
@@ -676,8 +685,7 @@ abbr{
  transform: translateY(-10%);
  transition: 1s ease;
  opacity:unset;
-    cursor: pointer;
-    font-weight: bolder;
+ cursor: pointer;
 }
 
 
@@ -702,36 +710,71 @@ abbr{
 }
 
 
-.footer-content{
-    padding-top: 1.5%;
-    min-height:22vh;
-    background-color:rgb(26, 21, 21);
-    text-align: center;
-    width: 100%;
+#footer{
+    min-height: 15vh;
+    max-width: 100%;
+    background-color:oldlace;
+    position: relative;
 }
+
+ #footer .footer-image{
+    height:4rem;
+    width:4rem;
+    margin:auto;
+    margin-top: -5.5vh;
+}
+
+.footer-image img{
+    height:100%;
+    width:100%;
+    border-radius: 50%;
+    border:1px solid rgb(51, 42, 42); padding:2px; background: #4e342e;
+    box-shadow: 1px 1px 10px 1px #dbd5cf inset, 2px 2px 10px 3px;
+}
+
+.author{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.author h3{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.author h3 span{
+    color: red;
+}
+
+.author p{
+    display: flex;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 .horizontal-list{
     list-style: none;
-    padding-left: 0px;
-    margin:1.1rem;
 
 }
 .horizontal-list li{
     display: inline-block;
     margin: 0rem 0.5rem 0.5rem 0rem;
 }
-.horizontal-list li a{
-    color:rgb(53 48 46);
-    font-size: 1.5rem;
-    font-weight: bolder;
-    text-decoration: none;
-}
+
 .text-center{
     text-align: center;
 }
 
 .social-icons li a i{
-    color:white;
-   padding: 0.8rem;
+    color:lightseagreen;
+   padding: 0.4rem;
    font-size: 1.4rem;
    border-radius: 50%;
     text-decoration: none;
@@ -741,21 +784,17 @@ abbr{
  color:rgb(240, 49, 1);
 }
 
-.name-footer{
-    font-family:cursive;
-    color:papayawhip;
-}
-
-.name-footer span{
-    color: red;
-}
-
 .end{
-    color: blanchedalmond;
-    background-color: black;
-    font-size: 1rem;
-    /* margin-top: 0%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    color: black;
+    background-color:lightgray;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 
 @media only screen and (max-width: 572px) {
 
