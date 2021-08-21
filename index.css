@@ -380,7 +380,7 @@ section:nth-child(2n+1){
 }
 
 .wrap{
-    max-width: 60%;
+    max-width: 50%;
     margin: 0 auto 0;
 }
 
@@ -649,7 +649,7 @@ abbr{
 
     display: flex;
     flex-wrap:nowrap;
-    justify-content:space-between;
+    justify-content:space-evenly;
     align-items: center;
     margin:10px auto;
     /* min-height: 50vh; */
@@ -713,7 +713,7 @@ abbr{
 #footer{
     min-height: 15vh;
     max-width: 100%;
-    background-color:oldlace;
+    background-color:rgb(10, 7, 7);
     position: relative;
 }
 
@@ -746,6 +746,7 @@ abbr{
     font-weight: 600;
     margin-bottom: 15px;
     font-size: 1.3rem;
+    color:linen;
 }
 
 .author h3 span{
@@ -756,6 +757,7 @@ abbr{
     display: flex;
     font-weight: 300;
     font-family: Arial, Helvetica, sans-serif;
+    color:darkred
 }
 
 
@@ -781,7 +783,7 @@ abbr{
 }
 .social-icons li a i:hover{
  box-shadow: 0px 0px 6px 4px rgba(233, 108, 108, 0.3);
- color:rgb(240, 49, 1);
+ color:rgb(57, 39, 65);
 }
 
 .end{
@@ -793,6 +795,10 @@ abbr{
     background-color:lightgray;
     font-size: 0.8rem;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.author p{
+    text-align: center;
 }
 
 
@@ -830,12 +836,7 @@ abbr{
         display: block;
     }
 
-    /* .box{
-        margin:4%;
-        width:100%;
-    }
-
-    .icon{
+    /*.icon{
         text-align: center;
     } */
    .timeline-divider {
@@ -870,6 +871,15 @@ abbr{
     }
     .box{
         margin:10px;
+
+    }
+
+    .box h2{
+        font-size: 1rem;
+    }
+
+    .box p{
+        font-size:0.9rem;
     }
 
     .heading{
